@@ -57,6 +57,7 @@ const Cartpage = () => {
                       <div className="item-title flex w-full text-lg font-medium gap-8 items-center">
                         <p className="rating">{cartItem.rating}⭐</p>
                         <p className="text">{cartItem.title}</p>
+                        <p className='text'>{cartItem.id}</p>
                       </div>
                       <div className="item-title w-full">
                         <p className="text">{cartItem.description}</p>
