@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link to='/'>
           <div className="logo flex gap-4">
               <RxCube size={50}/>
-              <p className="company-text flex items-center text-xl font-semibold"><span className='text-red-500'>Cart</span>-On</p>
+              <p className="company-text flex items-center text-xl font-semibold"><span className='text-red-500'>Cart</span>-Onnn</p>
           </div>
         </Link>
         <div className="hamburger md:hidden">
