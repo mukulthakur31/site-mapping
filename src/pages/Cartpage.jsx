@@ -74,7 +74,7 @@ const Cartpage = () => {
                         <button className='shadow-md bg-black text-white px-4 py-2 rounded-md cursor-pointer'
                         onClick={()=>HandleMoveToWishlist(cartItem)}
                         >Move to Wishlist</button>
-                        <button className='shadow-md bg-red-400 text-white px-4 py-2 rounded-md cursor-pointer'
+                        <button className='remove shadow-md bg-red-400 text-white px-4 py-2 rounded-md cursor-pointer'
                         onClick={()=>HandleRemoveFromCart(cartItem)}
                         >Remove from Cart</button>
                       </div>
